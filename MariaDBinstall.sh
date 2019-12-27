@@ -1,3 +1,4 @@
+#!/bin/bash
 useradd -s /sbin/nologin -M mysql
 tar xf mariadb-10.3.21-linux-x86_64.tar.gz
 ln -sv mariadb-10.3.21-linux-x86_64 mysql
